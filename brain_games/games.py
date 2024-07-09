@@ -1,6 +1,6 @@
 import prompt
 
-from brain_games.randnum import generate_rand_num
+from brain_games.even import get_num_and_even_answer
 
 
 def welcome_user():
@@ -16,4 +16,5 @@ if __name__ == '__main__':
     print(f'Answer "yes" if the number is even, otherwise answer "no".\nQuestion:')
 
 
-generate_rand_num()
+if __name__ == '__main__':
+    get_num_and_even_answer()
